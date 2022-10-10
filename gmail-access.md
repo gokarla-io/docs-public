@@ -11,6 +11,9 @@
 ## Existing authenticate flow implementation
 
 - App users authenticate through firebase and gets userId, userToken and refreshToken.
+
+    ![google-cred-flutter-screenshot.png](google-cred-flutter-screenshot.png?raw=true "google-cred-flutter-screenshot")
+    
 - The backend validate user tokens throw firebase python package firebase_admin.
 
     Firebase  <> App <> Backend
